@@ -5,9 +5,9 @@
 $grayMediumLight: #eaeaea;
 
 @mixin box_sizing {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* universal */
@@ -81,6 +81,7 @@ p {
   }
 }
 
+
 /* sidebar */
 
 aside {
@@ -88,8 +89,8 @@ aside {
     padding: 10px 0;
     border-top: 1px solid $grayLighter;
     &:first-child {
-    	border: 0;
-    	padding-top: 0;
+      border: 0;
+      padding-top: 0;
     }
     span {
       display: block;
@@ -100,7 +101,7 @@ aside {
       font-size: 1.4em;
       text-align: left;
       letter-spacing: -1px;
-      margin-bottom:  3px;
+      margin-bottom: 3px;
       margin-top: 0px;
     }
   }
@@ -173,3 +174,4 @@ input {
   margin-top: 45px;
   @include box_sizing;
 }
+
